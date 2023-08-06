@@ -1,0 +1,114 @@
+body {
+    padding-top: 60px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Parallax Section styles */
+.parallax-section {
+    height: 400px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax-section-1 {
+    background-image: url("bck5.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-section-2 {
+    background-image: url("bck5.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-content {
+    text-align: center;
+}
+
+.parallax-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.parallax-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.feedback-section {
+    padding: 50px 0;
+    background-color: #0f0c0c;
+    background-image: url("reg.jpeg"); 
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feedback-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #0c0909;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #120f0f;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer p {
+    margin: 0;
+}

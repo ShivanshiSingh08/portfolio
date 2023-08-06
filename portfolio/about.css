@@ -1,0 +1,101 @@
+body {
+    padding-top: 60px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    border-bottom: 1px solid #ddd;
+}
+
+
+.hero-section {
+    height: 300px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section-1 {
+    background-color: #ccc612;
+    background-image: url("bck1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset;
+}
+
+.hero-section-2 {
+    background-color: #ccc612;
+    background-image: url("bck1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset;
+}
+.hero-section-3 {
+    background-color: #ccc612;
+    background-image: url("bck1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #060606;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #0c0c0b;
+}
+
+/* Modal styles */
+.modal-dialog {
+    max-width: 600px;
+}
+
+.modal-content {
+    padding: 20px;
+    background-color: #ccc612;
+}
+
+.modal-header {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.modal-body {
+    font-size: 18px;
+}
+
+.modal-footer {
+    border-top: none;
+    padding-top: 0;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer p {
+    margin: 0;
+}
+

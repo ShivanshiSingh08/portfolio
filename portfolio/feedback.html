@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Feedback Page</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Shiavnshi Singh</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="homepage.html"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html"><i class="fas fa-images"></i> Photo Gallery</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="registration.html"><i class="fas fa-user-plus"></i> Registration Form</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"><i class="fas fa-address-card"></i> About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fas fa-mountain"></i> Parallax Webpage</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Parallax Section 1 -->
+    <section class="parallax-section parallax-section-1">
+        <div class="parallax-content">
+            <h1>We Value Your Feedback</h1>
+            <p>Please take a moment to provide your valuable feedback about our website.</p>
+        </div>
+    </section>
+
+    <!-- Feedback Form Section -->
+    <section class="feedback-section">
+        <div class="container" >
+            <h2>Feedback Form</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="feedback">Your Feedback</label>
+                    <textarea id="feedback" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Parallax Section 2 -->
+    <section class="parallax-section parallax-section-2">
+        <div class="parallax-content">
+            <h1>Thank You!</h1>
+            <p>Thank you for providing your feedback.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2023 Shivanshi Singh. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
